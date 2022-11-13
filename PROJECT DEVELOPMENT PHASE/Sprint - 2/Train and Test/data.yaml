@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Drowning']
+
+roboflow:
+  workspace: project
+  project: drowning-detect
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/drowning-detect/dataset/1
